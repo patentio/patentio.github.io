@@ -1,0 +1,52 @@
+body {
+	color:#333;
+	margin-top:25px;
+}
+h1, p, dd, a, footer, ul, li {
+	font-family:"proxima-nova", "Lucida Grande", "Helvetica", "Arial", sans-serif;
+	font-weight:300;
+}
+
+strong {
+	font-weight:600;
+}
+
+h1#brandmark {
+	line-height:50px;
+	background:url(/img/wreath-50x50.png) no-repeat top left;
+	padding-left:60px;
+}
+
+
+h2.subheader {
+	font-size:1.75em;
+	font-weight:100;
+	letter-spacing:2px;
+}
+
+dt, dd {
+	display:block;
+}
+
+dt {
+	font-size:1.25em;
+	border-bottom:1px #eee solid;
+}
+
+dd.bordered {
+	margin-top:25px;
+	border-left:10px #eee solid;
+	padding-left:10px;
+}
+
+body > header, body > #main {
+	border-bottom:10px #eee solid;
+}
+
+body > footer {
+
+}
+
+ul { 
+	margin-left:2em;
+}
